@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class divide {
+public class divide1008 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class multiple2 {
+public class multiple2588 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
