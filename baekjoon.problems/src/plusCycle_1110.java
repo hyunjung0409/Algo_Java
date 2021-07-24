@@ -14,7 +14,5 @@ public class plusCycle_1110 {
 			cnt++;
 		} while (n != n2);
 		System.out.println(cnt);
-
 	}
-
 }
