@@ -30,10 +30,11 @@ public class BOJ_15649_N과M_1 {
 			System.out.println();
 			return;
 		}
-		//가능한 모든 수 시도
+		//1부터 N까지 가능한 모든 수 시도
 		for (int i = 1; i <= N; i++) {
 			//isSelected가 true이라면 (이미 뽑힌 숫자라면)
-			if(isSelected[i]) continue;
+			if(isSelected[i]) 
+				continue; //다음 숫자를 뽑으러 간다
 			
 			//이미 뽑힌 수가 아니라면 자리에 해당 숫자를 넣어준다
 			numbers[cnt] = i;
