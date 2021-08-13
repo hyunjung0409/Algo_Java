@@ -14,8 +14,8 @@ public class BOJ_15649_N과M_1 {
 		N = Integer.parseInt(st.nextToken());
 		R = Integer.parseInt(st.nextToken());
 		
-		numbers = new int[R];
-		isSelected = new boolean[N+1];
+		numbers = new int[R]; //함수 호출 전에 초기화
+		isSelected = new boolean[N+1]; //함수 호출 전에 초기화
 
 		permutation(0);
 		
