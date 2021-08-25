@@ -1,3 +1,6 @@
+// BOJ_14696_딱지놀이
+// https://www.acmicpc.net/problem/14696
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
