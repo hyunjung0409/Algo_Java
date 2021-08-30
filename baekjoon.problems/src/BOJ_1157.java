@@ -24,23 +24,16 @@ public class BOJ_1157 {
 		
 		//가장 많이 사용된 알파벳 찾기
 		int max = -1;
+		char ch='?';
 		for (int i = 0; i < 26; i++) {
-			max = Math.max(arr[i], max);
-		}
-		
-		//출력
-		int cnt=0, idx=0;
-		for (int i = 0; i < 26; i++) {
-			if(arr[i] == max) {
-				cnt++;
-				idx = i;
+			if(arr[i] > max) {
+				max = arr[i];
+				ch = (char)(i+65);
+			}
+			else if(arr[i] == max) {
+				ch='?';
 			}
 		}
-		if(cnt > 1)
-			System.out.println("?");
-		else if(cnt == 1) {
-			System.out.println((char)(idx+65));
-		}
+		System.out.print(ch);
 	}
-
 }
