@@ -1,10 +1,10 @@
+// BOJ_1182_부분수열의 합
+// https://www.acmicpc.net/problem/1182
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
-// BOJ_1182_부분수열의 합
-// https://www.acmicpc.net/problem/1182
 
 public class Main_BOJ_1182 {
 	
